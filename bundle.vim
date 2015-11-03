@@ -63,4 +63,6 @@ Plugin 'VundleVim/Vundle.vim'
 call vundle#end()          " required
 filetype plugin indent on  " required
 
-colorscheme molokai
+if filereadable(expand("~/.vim/bundle/molokai/colors/molokai.vim"))
+   colorscheme molokai
+endif

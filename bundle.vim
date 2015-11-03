@@ -8,6 +8,7 @@ call vundle#begin()
 " required!
 Plugin 'VundleVim/Vundle.vim'
 
+
     "--------------
     Plugin 'Lokaltog/vim-powerline'
     set laststatus=2
@@ -20,15 +21,6 @@ Plugin 'VundleVim/Vundle.vim'
     let g:pymode_run_bind = '<leader>r'
     let g:pymode_rope_goto_definition_cmd = 'tabnew'
     "let g:pymode_rope_lookup_project = 1
-
-
-    "--------------
-    "Plugin 'vim-scripts/taglist.vim'
-    "let g:Tlist_Ctags_Cmd = '~/programs/homebrew/bin/ctags'
-    "let g:Tlist_Exit_OnlyWindow = 1
-    "let g:Tlist_Use_Right_Window = 1
-    "map <silent> <leader>t :TlistToggle<CR>
-
 
     "--------------
     Plugin 'scrooloose/nerdtree'
@@ -43,17 +35,14 @@ Plugin 'VundleVim/Vundle.vim'
     let g:NERDTreeShowHidden=1
     let g:NERDTreeWinPos='left'
 
-
     "--------------
     Plugin 'majutsushi/tagbar'
     nmap <silent> <leader>t :TagbarToggle<CR>
     let g:tagbar_ctags_bin = '~/programs/homebrew/bin/ctags'
     let g:tagbar_iconchars = ['▸', '▾']
 
-
     "--------------
     Plugin 'mkitt/tabline.vim'
-
 
     "--------------
     Plugin 'tomasr/molokai'

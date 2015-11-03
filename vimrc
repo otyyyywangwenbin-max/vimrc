@@ -4,7 +4,6 @@ source ~/.vim/bundle.vim             " 加载插件
 
 set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 syntax on
-filetype plugin indent on     " required!
 
 " Vim UI
 colorscheme self

@@ -1,3 +1,20 @@
-This is a vimrc config.<br>
-The config need pre install vundle.<br>
-Download these files into ~/.vim and make a symbolic link ~/.vimrc to ~/.vim/vimrc
+How to install
+==============
+Requirements
+--------
+- VIM >= 7.3
+:: 
+  Linux
+    % yum -y install vim
+    % alias vi=vim
+
+Manually
+--------
+::
+    % mv ~/.vim /.vim.bak
+    % git clone https://github.com/otyyyywangwenbin/vimrc.git ~/.vim
+    % git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle
+    % cd ~/.vim
+    % ln -s ~/.vim/vimrc ~/.vimrc
+    % vi +PluginInstall +qall
+

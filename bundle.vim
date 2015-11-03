@@ -1,13 +1,12 @@
 set nocompatible               " be iMproved
-filetype off                   " required!
+filetype off                   " required
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/vundle
+call vundle#begin()
 
 " let Vundle manage Vundle
 " required!
-Plugin 'gmarik/vundle'
-
+Plugin 'VundleVim/Vundle.vim'
 
     "--------------
     Plugin 'Lokaltog/vim-powerline'
@@ -59,7 +58,9 @@ Plugin 'gmarik/vundle'
     "--------------
     Plugin 'tomasr/molokai'
     let g:rehash256 = 1
-    colorscheme molokai
 
 
-filetype on     " required!
+call vundle#end()          " required
+filetype plugin indent on  " required
+
+colorscheme molokai

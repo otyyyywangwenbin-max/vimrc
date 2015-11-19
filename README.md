@@ -8,6 +8,8 @@ Requirements
     % yum -y install vim
     % alias vi=vim
 ```
+- python virtualenv
+- Exuberant Ctags
 
 Manually
 --------
